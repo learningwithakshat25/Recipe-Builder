@@ -8,7 +8,7 @@ const AppLayout = () => {
   return (
    <>
    <Header/>
-   <div className='w-screen flex flex-col items-center justify-center gap-15 container mx-auto p-10'>
+   <div className='w-screen flex flex-col items-center justify-center gap-15 container mx-auto p-4 md:p-10'>
     <Outlet/>
    </div>
    <Footer/>
